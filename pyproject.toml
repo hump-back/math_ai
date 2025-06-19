@@ -1,0 +1,19 @@
+[project]
+name = "math-ai"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "humpback",email = "humpback@whalesec.co.kr"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit (>=1.46.0,<2.0.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "numpy (>=2.3.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
